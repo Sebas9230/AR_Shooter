@@ -44,7 +44,7 @@ public class GameController : MonoBehaviour
     {
         gameEnded = true;
         string result;
-        if (NPCController.POINTS >= 3 || markerDetected) // Condición adicional
+        if (NPCController.POINTS >= 5 || markerDetected) // Condición adicional
         {
             result = "Victory";
             LogManager.LogEvent("Endgame", $"Result: {result}, Score: {NPCController.POINTS}");
