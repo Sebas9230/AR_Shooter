@@ -7084,7 +7084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: a964d8db50be94f4abf55f1c1447ba6e,
     type: 2}
-  m_MaxNumberOfMovingImages: 2
+  m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 1187427280406688, guid: 201ae2255c547f147850ee838dd628c5,
     type: 3}
 --- !u!1 &1542672740
@@ -7725,8 +7725,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d617620cc18f474cbacf5ca484eb0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arTrackedImageManager: {fileID: 0}
   arSession: {fileID: 0}
+  arTrackedImageManager: {fileID: 0}
 --- !u!4 &1908919879
 Transform:
   m_ObjectHideFlags: 0
